@@ -14,19 +14,19 @@ export const useTasks = () => {
       id: 'todo',
       title: 'To Do',
       status: 'todo',
-      tasks: tasks.value.filter(task => task.status === 'todo')
+      tasks: tasks.value.filter((task: Task) => task.status === 'todo')
     },
     {
       id: 'in-progress',
       title: 'In Progress',
       status: 'in-progress',
-      tasks: tasks.value.filter(task => task.status === 'in-progress')
+      tasks: tasks.value.filter((task: Task) => task.status === 'in-progress')
     },
     {
       id: 'done',
       title: 'Done',
       status: 'done',
-      tasks: tasks.value.filter(task => task.status === 'done')
+      tasks: tasks.value.filter((task: Task) => task.status === 'done')
     }
   ])
 
