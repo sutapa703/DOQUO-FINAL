@@ -1,6 +1,8 @@
 import { ref, computed } from 'vue'
 import { supabase } from '@/lib/supabase'
-import type { User, AuthError } from '@supabase/supabase-js'
+supabase.auth.onAuthStateChange(() => {
+  // remove unused event/session if not used
+})
 
 const user = ref<User | null>(null)
 const loading = ref(true)
