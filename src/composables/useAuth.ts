@@ -1,3 +1,4 @@
+import type { User } from '@/types'
 import { ref, computed } from 'vue'
 import { supabase } from '@/lib/supabase'
 supabase.auth.onAuthStateChange(() => {
