@@ -1,7 +1,7 @@
 {
   "name": "doquo",
   "private": true,
-  "version": "0.0.0",
+   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -26,5 +26,5 @@
     "vite": "^5.4.2",
     "vue-tsc": "^2.1.4",
     "@types/uuid": "^9.0.7"
-  }
+  },
 }
