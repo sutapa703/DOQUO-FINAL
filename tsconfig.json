@@ -2,7 +2,7 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "module": "esnext",               // OR 'node16' (see next point)
-    "moduleResolution": "node",      // or 'node16'
+    "moduleResolution": "bundler",      // or 'node16'
     "target": "ES2020",
     "baseUrl": ".",
     "paths": {
